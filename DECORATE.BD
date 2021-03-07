@@ -1,0 +1,10 @@
+Actor IronChainsawSpawner : ChainsawSpawner replaces ChainsawSpawner {
+    States {
+        Pickup:
+            TNT1 A 0
+            TNT1 A 0 A_PlaySound("IGOTSAW", CHAN_VOICE)
+            TNT1 A 0 A_JumpIfInventory("IsPlayingAsPurist", 1, "Purist")
+            TNT1 A 0 A_GiveInventory("Chain_Saw", 1)
+            Stop
+    }
+}
