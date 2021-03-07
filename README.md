@@ -1,6 +1,6 @@
 # Brutal Doom and Project Brutality russian sounds
 
-v0.0.1
+v0.1.0
 
 - [ ] Marine sounds
   - [x] Taunts
