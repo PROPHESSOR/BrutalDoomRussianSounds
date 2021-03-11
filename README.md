@@ -1,9 +1,9 @@
 # Brutal Doom and Project Brutality russian sounds
 
-v0.1.0
+v0.2.0
 
-- [ ] Marine sounds
-  - [x] Taunts
-  - [ ] Screams
+- [x] Marine sounds
 - [ ] Monsters sounds
+  - [x] Brutal Doom Zombies
+  - [ ] Project Brutality New Zombies
 
