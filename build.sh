@@ -4,6 +4,7 @@
 # === Brutal Doom === #
 mkdir build
 
+cp README.md build/
 cp -R SOUNDS build/
 cp brutaldoom/* build/
 cd build
@@ -16,6 +17,7 @@ rm -r build
 # === Project Brutality === #
 mkdir build
 
+cp README.md build/
 cp -R SOUNDS build/
 cp brutality/* build/
 cd build
