@@ -1,19 +1,15 @@
 //Doomguy's Sounds
 
 FUCK1 SOUNDS/DOOMGUY/FUCK1.ogg
-FUCK2 SOUNDS/DOOMGUY/FUCK2.ogg
 FUCK3 SOUNDS/DOOMGUY/FUCK3.ogg
 FUCK4 SOUNDS/DOOMGUY/FUCK4.ogg
 FUCK5 SOUNDS/DOOMGUY/FUCK5.ogg
-FUCK6 SOUNDS/DOOMGUY/FUCK6.ogg
 
 $random FUCK {
     FUCK1
-    FUCK2
     FUCK3
     FUCK4
     FUCK5
-    FUCK6
 }
 
 TAUNT01 SOUNDS/DOOMGUY/TAUNT01.ogg
@@ -122,41 +118,12 @@ $random MTAUN {
 IGOTSAW SOUNDS/DOOMGUY/IGOTSAW.ogg
 
 // Zombies
-grunt/active1    SOUNDS/MONSTERS/ZOMBIES/ZOMACT1.ogg
-grunt/active2    SOUNDS/MONSTERS/ZOMBIES/ZOMACT2.ogg
-grunt/active3    SOUNDS/MONSTERS/ZOMBIES/ZOMACT3.ogg
-grunt/active4    SOUNDS/MONSTERS/ZOMBIES/ZOMACT4.ogg
-grunt/active5    SOUNDS/MONSTERS/ZOMBIES/ZOMACT5.ogg
-
-$random grunt/active {
-    grunt/active1
-    grunt/active2
-    grunt/active3
-    grunt/active4
-    grunt/active5
-    NOTHING
-    NOTHING
-    NOTHING
-    NOTHING
-    NOTHING
-    NOTHING
-    NOTHING
-    NOTHING
-    NOTHING
-    NOTHING
-}
-
 grunt/sight1	SOUNDS/MONSTERS/ZOMBIES/ZOMSIT1.ogg
 grunt/sight2	SOUNDS/MONSTERS/ZOMBIES/ZOMSIT2.ogg
 grunt/sight3	SOUNDS/MONSTERS/ZOMBIES/ZOMSIT3.ogg
 grunt/sight4	SOUNDS/MONSTERS/ZOMBIES/ZOMSIT4.ogg
 grunt/sight5	SOUNDS/MONSTERS/ZOMBIES/ZOMSIT5.ogg
 grunt/sight6	SOUNDS/MONSTERS/ZOMBIES/ZOMSIT6.ogg
-grunt/sight7	SOUNDS/MONSTERS/ZOMBIES/ZOMSIT7.ogg
-grunt/sight8	SOUNDS/MONSTERS/ZOMBIES/ZOMSIT8.ogg
-grunt/sight9	SOUNDS/MONSTERS/ZOMBIES/ZOMSIT9.ogg
-grunt/sight10	SOUNDS/MONSTERS/ZOMBIES/ZOMSIT10.ogg
-grunt/sight11	SOUNDS/MONSTERS/ZOMBIES/ZOMSIT11.ogg
 
 $random grunt/sight {
     grunt/sight1
@@ -165,13 +132,5 @@ $random grunt/sight {
     grunt/sight4
     grunt/sight5
     grunt/sight6
-    grunt/sight7
-    grunt/sight8
-    grunt/sight9
-    grunt/sight10
-    grunt/sight11
 }
-
-shotguy/sight    grunt/sight
-shotguy/active   grunt/active
 
