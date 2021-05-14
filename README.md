@@ -7,6 +7,8 @@ v0.3.0
   - [x] Brutal Doom Zombies
   - [x] Project Brutality Old Zombies
   - [ ] Project Brutality New Zombies
+  - [ ] Evil marines sounds
+- [ ] Friendly marines sounds
 
 https://github.com/PROPHESSOR/BrutalDoomRussianSounds
 
