@@ -134,3 +134,57 @@ $random grunt/sight {
     grunt/sight6
 }
 
+
+// Evil marines
+zombiemarine/sight1     SOUNDS/MONSTERS/ZOMBIES/ZOMSIT1.ogg
+zombiemarine/sight2     SOUNDS/MONSTERS/ZOMBIES/ZOMSIT2.ogg
+zombiemarine/sight3     SOUNDS/MONSTERS/ZOMBIES/ZOMSIT3.ogg
+zombiemarine/sight4     SOUNDS/MONSTERS/ZOMBIES/ZOMSIT4.ogg
+zombiemarine/sight5     SOUNDS/MONSTERS/ZOMBIES/ZOMSIT5.ogg
+zombiemarine/sight6     SOUNDS/MONSTERS/ZOMBIES/ZOMSIT6.ogg
+zombiemarine/sight7     SOUNDS/MONSTERS/ZOMBIES/ZOMSIT7.ogg
+zombiemarine/sight8     SOUNDS/MONSTERS/ZOMBIES/ZOMSIT8.ogg
+zombiemarine/sight9     SOUNDS/MONSTERS/ZOMBIES/ZOMSIT9.ogg
+zombiemarine/sight10	SOUNDS/MONSTERS/ZOMBIES/ZOMSIT10.ogg
+zombiemarine/sight11	SOUNDS/MONSTERS/ZOMBIES/ZOMSIT11.ogg
+
+$random zombiemarine/sight {
+    zombiemarine/sight1
+    zombiemarine/sight2
+    zombiemarine/sight3
+    zombiemarine/sight4
+    zombiemarine/sight5
+    zombiemarine/sight6
+    zombiemarine/sight7
+    zombiemarine/sight8
+    zombiemarine/sight9
+    zombiemarine/sight10
+    zombiemarine/sight11
+}
+
+zombiemarine/active1	SOUNDS/MONSTERS/ZOMBIES/ZOMACT1.ogg
+zombiemarine/active2	SOUNDS/MONSTERS/ZOMBIES/ZOMACT2.ogg
+zombiemarine/active3	SOUNDS/MONSTERS/ZOMBIES/ZOMACT3.ogg
+zombiemarine/active4	SOUNDS/MONSTERS/ZOMBIES/ZOMACT4.ogg
+zombiemarine/active5	SOUNDS/MONSTERS/ZOMBIES/ZOMACT5.ogg
+
+$random zombiemarine/active {
+    zombiemarine/active1
+    zombiemarine/active2
+    zombiemarine/active3
+    zombiemarine/active4
+    zombiemarine/active5
+    NOTHING
+    NOTHING
+    NOTHING
+    NOTHING
+    NOTHING
+    NOTHING
+    NOTHING
+    NOTHING
+    NOTHING
+    NOTHING
+}
+
+$volume zombiemarine/active 0.76
+
