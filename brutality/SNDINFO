@@ -211,11 +211,11 @@ MRNAG2 SOUNDS/MARINES/MRNAG2.ogg
 $random MarineGuard {
     MRNWT2
     MRNWT1
+    MRNWT5
 }
 
 $random MarineFollow {
     MRNWT4
-    MRNWT5
     LETSROCK
 }
 
